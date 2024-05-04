@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SunR1&#39;s Digital Garden</title>
-    <link>//localhost:1313/tags/</link>
+    <link>//example.org/tags.html</link>
     <description>Recent content in Tags on SunR1&#39;s Digital Garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//example.org/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

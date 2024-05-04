@@ -8,7 +8,7 @@
   <link rel="icon" href="./favicon.ico">
 
   <title>
-    Homepage - SunR1&#39;s Digital Garden
+    Articles - SunR1&#39;s Digital Garden
   </title>
 
   <meta name="description" content="My Digital Garden on the Internet" /><meta name="generator" content="Hugo 0.123.7">
@@ -18,22 +18,22 @@
   
   
 
-  <meta property="og:title" content="Homepage" />
+  <meta property="og:title" content="Articles" />
 <meta property="og:description" content="My Digital Garden on the Internet" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//example.org/" /><meta property="og:image" content="//example.org/digital-garden-logo.png" />
+<meta property="og:url" content="//example.org/articles.html" /><meta property="og:image" content="//example.org/digital-garden-logo.png" />
 
 
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="//example.org/digital-garden-logo.png" /><meta name="twitter:title" content="Homepage"/>
+<meta name="twitter:image" content="//example.org/digital-garden-logo.png" /><meta name="twitter:title" content="Articles"/>
 <meta name="twitter:description" content="My Digital Garden on the Internet"/>
 
 
-  <meta itemprop="name" content="Homepage">
+  <meta itemprop="name" content="Articles">
 <meta itemprop="description" content="My Digital Garden on the Internet">
 
-  <meta itemprop="name" content="Homepage">
+  <meta itemprop="name" content="Articles">
 <meta itemprop="description" content="My Digital Garden on the Internet">
 </head><body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:basis-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar flex-shrink-0">
@@ -61,7 +61,7 @@
   <ul class="list-none flex flex-col gap-1">
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="./" >
         <span>Home</span>
         
@@ -117,14 +117,65 @@
 </svg></button>
 
 
-<main class="h-screen overflow-y-auto w-full">
-  <div class="px-6 py-20 w-full lg:w-[580px] mx-auto prose dark:prose-invert h-fit prose-img:mx-auto">
-    <h1 id="hello-">Hello 👋</h1>
-<h2 id="这是我的博客我想在这写下自己的想法">这是我的博客，我想在这写下自己的想法。</h2>
-<!-- raw HTML omitted -->
+<div class="flex flex-1 h-screen relative w-full min-w-0">
 
-  </div>
-</main>
+  <section
+    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
+    <a href="//example.org/articles.html">
+      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
+    </a>
+<label class="mb-2 block px-2">
+  <span></span>
+  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
+</label>
+<script>
+  const searchElt = document.querySelector('.searchInput')
+  if (searchElt) {
+    searchElt.addEventListener('input', evt => {
+      const value = evt.target.value || '';
+
+      const articles = document.querySelectorAll('.article')
+      if (!value) {
+        articles.forEach(article => article.classList.remove('hidden'))
+      } else {
+        articles.forEach(article => article.classList.add('hidden'))
+        Array.from(articles).filter(article => {
+          const title = article.querySelector('h3')
+          if (!title) return false;
+
+          return title.textContent.toLowerCase().includes(value.toLowerCase())
+        }).forEach(article => article.classList.remove('hidden'))
+      }
+    })
+  }
+</script>
+<div class="space-y-2.5">
+      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="./articles/truetest01.html">
+
+        
+        
+        <h3 class="text-lg font-semibold mb-0.5">Truetest01</h3>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          这下博客应该初步构建好了吧QAQ 今天是20240504。 hello, world!
+        </div>
+      </a>
+      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="./articles/archive.html">
+
+        
+        
+        <h3 class="text-lg font-semibold mb-0.5">Articles</h3>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          
+        </div>
+      </a>
+      </div>
+  </section>
+
+  <main class="hidden md:grid h-screen place-items-center flex-1">
+    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
+  </main>
+
+</div>
 
 
   

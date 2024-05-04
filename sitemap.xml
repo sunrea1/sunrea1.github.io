@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/articles/</loc>
+    <loc>//example.org/articles.html</loc>
     <lastmod>2024-05-04T20:31:30+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>//example.org/</loc>
     <lastmod>2024-05-04T20:31:30+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/truetest01/</loc>
+    <loc>//example.org/articles/truetest01.html</loc>
     <lastmod>2024-05-04T20:31:30+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/installation/</loc>
+    <loc>//example.org/articles/archive/installation.html</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/</loc>
+    <loc>//example.org/articles/archive.html</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/structure/</loc>
+    <loc>//example.org/articles/archive/structure.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/primary-menu/</loc>
+    <loc>//example.org/articles/archive/primary-menu.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/social-menu/</loc>
+    <loc>//example.org/articles/archive/social-menu.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/newsletter/</loc>
+    <loc>//example.org/articles/archive/newsletter.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/google-analytics/</loc>
+    <loc>//example.org/articles/archive/google-analytics.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/archive/metatags/</loc>
+    <loc>//example.org/articles/archive/metatags.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/design1/</loc>
+    <loc>//example.org/portfolio/design1.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>//example.org/portfolio.html</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/design2/</loc>
+    <loc>//example.org/portfolio/design2.html</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/design3/</loc>
+    <loc>//example.org/portfolio/design3.html</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//example.org/categories.html</loc>
   </url><url>
-    <loc>//localhost:1313/stack/</loc>
+    <loc>//example.org/stack.html</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//example.org/tags.html</loc>
   </url>
 </urlset>
